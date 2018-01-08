@@ -34,6 +34,7 @@ end on
 event open;//test11
 //yrdy
 //stest
+//aaaa
 end event
 
 type cb_1 from commandbutton within win1
