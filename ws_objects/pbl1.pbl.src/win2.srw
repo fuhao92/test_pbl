@@ -32,7 +32,7 @@ destroy(this.cb_1)
 end on
 
 event open;//test220dkk
-//test
+//test003
 end event
 
 type cb_1 from commandbutton within win2
