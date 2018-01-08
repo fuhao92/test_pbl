@@ -31,6 +31,9 @@ on win2.destroy
 destroy(this.cb_1)
 end on
 
+event open;//test22
+end event
+
 type cb_1 from commandbutton within win2
 integer x = 1600
 integer y = 224
