@@ -31,7 +31,7 @@ on win3.destroy
 destroy(this.cb_1)
 end on
 
-event open;//test03
+event open;//test0304
 end event
 
 type cb_1 from commandbutton within win3
