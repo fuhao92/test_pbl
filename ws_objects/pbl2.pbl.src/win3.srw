@@ -32,7 +32,7 @@ destroy(this.cb_1)
 end on
 
 event open;//test0304
-//012
+//01211
 end event
 
 type cb_1 from commandbutton within win3
