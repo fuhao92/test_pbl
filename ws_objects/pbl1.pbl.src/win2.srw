@@ -38,6 +38,8 @@ event open;//test220dkk
 //test
 //test03
 //04
+//004
+//009
 end event
 
 type cb_1 from commandbutton within win2
