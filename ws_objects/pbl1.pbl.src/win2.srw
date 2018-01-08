@@ -31,7 +31,7 @@ on win2.destroy
 destroy(this.cb_1)
 end on
 
-event open;//test22
+event open;//test2222
 end event
 
 type cb_1 from commandbutton within win2
