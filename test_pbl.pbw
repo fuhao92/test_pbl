@@ -2,6 +2,7 @@ Save Format v3.0(19990112)
 @begin Targets
  0 "pbl1.pbt";
  1 "pbl2.pbt";
+ 2 "pbl11.pbt";
 @end;
-DefaultTarget "pbl2.pbt";
-DefaultRemoteTarget "pbl2.pbt";
+DefaultTarget "pbl11.pbt";
+DefaultRemoteTarget "pbl11.pbt";
