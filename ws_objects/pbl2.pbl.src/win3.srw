@@ -2,6 +2,8 @@
 forward
 global type win3 from window
 end type
+type cb_3 from commandbutton within win3
+end type
 type cb_2 from commandbutton within win3
 end type
 type cb_1 from commandbutton within win3
@@ -20,19 +22,23 @@ boolean resizable = true
 long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
+cb_3 cb_3
 cb_2 cb_2
 cb_1 cb_1
 end type
 global win3 win3
 
 on win3.create
+this.cb_3=create cb_3
 this.cb_2=create cb_2
 this.cb_1=create cb_1
-this.Control[]={this.cb_2,&
+this.Control[]={this.cb_3,&
+this.cb_2,&
 this.cb_1}
 end on
 
 on win3.destroy
+destroy(this.cb_3)
 destroy(this.cb_2)
 destroy(this.cb_1)
 end on
@@ -40,6 +46,21 @@ end on
 event open;//test0304
 //01211
 end event
+
+type cb_3 from commandbutton within win3
+integer x = 974
+integer y = 948
+integer width = 457
+integer height = 132
+integer taborder = 20
+integer textsize = -12
+integer weight = 400
+fontcharset fontcharset = ansi!
+fontpitch fontpitch = variable!
+fontfamily fontfamily = swiss!
+string facename = "Tahoma"
+string text = "455"
+end type
 
 type cb_2 from commandbutton within win3
 integer x = 878
