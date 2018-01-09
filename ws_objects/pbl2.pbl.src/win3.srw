@@ -116,7 +116,7 @@ fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Tahoma"
-string text = "none"
+string text = "009"
 end type
 
 type cb_1 from commandbutton within win3
