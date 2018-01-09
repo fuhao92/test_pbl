@@ -42,6 +42,7 @@ event open;//test11
 //stest
 //aaaa
 //bbbb
+//阿批评批评sffdsfsdfdfd
 end event
 
 type cb_2 from commandbutton within win1
